@@ -2,7 +2,7 @@ export function Navbar() {
     return (
         <header>
             <div className="logo-text">Area</div>
-            <ul className="nav-items">
+            <ul className="nav-items links-row">
                 <li className="nav-item link-text">Benefits</li>
                 <li className="nav-item link-text">Specifications</li>
                 <li className="nav-item link-text">How-to</li>

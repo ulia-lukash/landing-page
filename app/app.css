@@ -3,6 +3,8 @@
 @import "./landing-page/components/header.css";
 @import "./landing-page/components/logoCLoud.css";
 @import "./landing-page/components/benefits.css";
+@import "./landing-page/components/connect.css";
+@import "./landing-page/components/footer.css";
 
 html,
 body {
@@ -57,6 +59,27 @@ body {
   font-size: 18px;
   line-height: 100%;
   letter-spacing: -3%;
+}
+
+.learn-more-btn {
+  padding: 14px 20px;
+  background-color: #485C11;
+  border-radius: 24px;
+  height: 48px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 27px;
+  align-items: center;
+}
+
+.no-wrap {
+  white-space: nowrap;
 }
 
 @media (max-width: 1279px){

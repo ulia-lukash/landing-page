@@ -16,19 +16,10 @@ header {
   letter-spacing: -5%;
 }
 
-.nav-items {
-  display: flex;
+.links-row {
   padding: 20px 24px;
-  gap: 27px;
-  align-items: center;
 }
 
 
-.learn-more-btn {
-  padding: 14px 20px;
-  background-color: #485C11;
-  border-radius: 24px;
-  height: 48px;
-  color: white;
-}
+
 
