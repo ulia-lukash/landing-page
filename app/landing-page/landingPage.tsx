@@ -1,6 +1,9 @@
+import { Header } from "./components/header"
+
 export function LandingPage() {
     return (
-        <main>
+        <main className="main-page">
+            <Header/>
             <p>AAAAAAA</p>
         </main>
     )
