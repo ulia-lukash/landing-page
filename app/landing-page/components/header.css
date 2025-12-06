@@ -44,3 +44,10 @@
     z-index: 2;
     position: absolute;
 }
+
+
+@media (max-width: 799px) {
+    .image-container__clipped {
+        display: none;
+    }
+}

@@ -8,7 +8,7 @@ export function Navbar() {
                 <li className="nav-item link-text">How-to</li>
                 <li className="nav-item link-text">Contact Us</li>
             </ul>
-            <button className="learn-more-btn link-text">Learn more</button>
+            <button className="learn-more-btn link-text navbar-btn">Learn more</button>
         </header>
     )
 }

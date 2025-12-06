@@ -28,6 +28,19 @@ header {
   
 }
 
+.navbar-btn {
+  display: block;
+}
+
+@media (max-width: 799px){ 
+  .links-row {
+    display: none !important;
+  }
+
+  .navbar-btn {
+    display: none !important;
+  }
+}
 
 
 
