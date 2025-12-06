@@ -32,3 +32,10 @@
     flex-direction: column;
     gap: 8px;
 }
+
+@media (max-width: 1279px) {
+    .testimonial-container {
+        flex-direction: column;
+        gap: 40px;
+    }
+}

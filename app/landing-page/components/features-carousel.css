@@ -36,4 +36,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    min-height: 700px;
+}
+
+@media (max-width: 1279px) {
+    .features-carousel-container {
+        flex-direction: column;
+    }
 }

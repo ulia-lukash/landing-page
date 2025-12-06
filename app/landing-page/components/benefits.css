@@ -53,3 +53,12 @@
     margin-bottom: 40px;
     
 }
+
+@media (max-width: 1279px) {
+    .icons-module {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+    }
+}

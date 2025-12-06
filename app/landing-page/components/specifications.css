@@ -79,3 +79,9 @@
 .left-border {
     border-left: 0.5px solid #E9E9E9;
 }
+
+@media (max-width: 1279px) {
+    .specification-content {
+        padding: 80px;
+    }
+}

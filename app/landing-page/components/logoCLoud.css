@@ -1,6 +1,5 @@
 .logo-cloud-container {
     width: 100%;
-    height: 235px;
     display: flex;
     flex-direction: column;
     padding: 50px 0;
@@ -16,8 +15,20 @@
 
 .logo-row {
     width: 100%;
-    height: 84px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.logo-img {
+    padding: 20px;
+    min-width: 150px;
+}
+
+@media (max-width: 1279px) {
+    .logo-row {
+        gap: 10px;
+    }
 }
