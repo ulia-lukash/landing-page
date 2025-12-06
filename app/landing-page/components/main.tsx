@@ -2,6 +2,7 @@ import { Benefits } from "./benefits";
 import { Connect } from "./connect";
 import { FeaturesCarousel } from "./features-carousel";
 import { LogoCloud } from "./logoCloud";
+import { Specifications } from "./specifications";
 
 export function Main() {
     return (
@@ -9,6 +10,7 @@ export function Main() {
             <LogoCloud/>
             <Benefits/>
             <FeaturesCarousel />
+            <Specifications />
             <Connect />
         </main>
     )
