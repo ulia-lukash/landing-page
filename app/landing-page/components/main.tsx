@@ -15,6 +15,7 @@ export function Main() {
             <Specifications />
             <Testimonial />
             <HowItWorks />
+            <div className="hero-image"></div>
             <Connect />
         </main>
     )

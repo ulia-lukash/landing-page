@@ -110,6 +110,18 @@ body {
   white-space: nowrap;
 }
 
+.hero-image {
+  margin-bottom: 40px;
+  border-radius: 30px;
+  overflow: hidden;
+  width: 100%;
+  background-image: url("./landing-page/components/hero-image-2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  height: 665px;
+}
+
 @media (max-width: 1279px){
   .display-text {
     font-size: 140px;
