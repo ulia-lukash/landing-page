@@ -1,6 +1,6 @@
 export function LogoCloud() {
     return (
-        <div className="logo-cloud-container">
+        <div className="logo-cloud-container autoShow">
             <div className="label">Trusted by:</div>
             <div className="logo-row">
                 <div className="logo-img">

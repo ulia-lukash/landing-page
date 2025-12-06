@@ -1,6 +1,6 @@
 export function HowItWorks() {
     return (
-        <div className="how-it-works-container">
+        <div className="how-it-works-container autoShow">
             <div className="section-title">
                 <div className="heading-1-text">Map Your Success</div>
                 <button className="discover-more-btn">

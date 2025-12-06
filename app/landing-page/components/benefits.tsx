@@ -1,6 +1,6 @@
 export function Benefits() {
     return (
-        <div className="benefits-container">
+        <div className="benefits-container autoShow">
             <div className="headline-and-icons">
                 <div className="text-part">
                     <div className="captions-text color-captions">Benefits</div>

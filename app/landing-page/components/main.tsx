@@ -15,7 +15,7 @@ export function Main() {
             <Specifications />
             <Testimonial />
             <HowItWorks />
-            <div className="hero-image"></div>
+            <div className="hero-image autoShow"></div>
             <Connect />
         </main>
     )

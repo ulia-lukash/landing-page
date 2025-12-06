@@ -1,6 +1,6 @@
 export function Specifications() {
     return (
-        <div className="specifications-container">
+        <div className="specifications-container autoShow">
             <div className="specification-content">
                 <div className="text-content">
                     <div className="captions-text color-captions text-center">Specs</div>

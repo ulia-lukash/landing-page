@@ -1,6 +1,6 @@
 export function Header() {
     return (
-        <div className="header">
+        <div className="header autoShow">
             <div className="header-title display-text">Browse everything.</div>
             <div className="image-container__clipped">
                 <div className="header-image-container">

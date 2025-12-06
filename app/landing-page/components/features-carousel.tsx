@@ -1,6 +1,6 @@
 export function FeaturesCarousel() {
     return (
-        <div className="features-carousel-container">
+        <div className="features-carousel-container autoShow">
             <div className="text-container w-full">
                 <div className="title-container">
                     <div className="heading-1-text">See the Big Picture</div>
