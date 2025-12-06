@@ -20,12 +20,11 @@ header {
   padding: 20px 24px;
   backdrop-filter: blur(15px);
   background-color: rgba(255, 255, 255, 0.4);
-  /* position: fixed;
+  position: fixed;
   height: 60px;
   border-radius: 30px;
-  top: 0;
-  z-index: 10; */
-  
+  justify-self: anchor-center;
+  z-index: 10;  
 }
 
 .navbar-btn {
