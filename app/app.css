@@ -1,5 +1,8 @@
 @import "tailwindcss";
+@import "./landing-page/components/navbar.css";
 @import "./landing-page/components/header.css";
+@import "./landing-page/components/logoCLoud.css";
+@import "./landing-page/components/benefits.css";
 
 html,
 body {
@@ -8,4 +11,84 @@ body {
 
 .main-page {
   padding: 0 40px;
+}
+
+.color-paragraph {
+  color: #6F6F6F
+}
+
+.color-captions {
+  color: #485C11
+}
+
+
+.display-text {
+    font-size: 160px;
+    line-height: 85%;
+    letter-spacing: -5%;
+}
+
+.link-text {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 140%;
+  letter-spacing: -2.5%;
+}
+
+.captions-text {
+  font-size: 12px;
+  line-height: 140%;
+  letter-spacing: -1%;
+}
+
+.paragraph-text {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: -0.5%;
+}
+
+.heading-1-text {
+  font-size: 60px;
+  line-height: 90%;
+  letter-spacing: -3%;
+}
+
+.heading-3-text {
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: -3%;
+}
+
+@media (max-width: 1279px){
+  .display-text {
+    font-size: 140px;
+    line-height: 90%;
+    letter-spacing: -5%;
+  }
+
+  .captions-text {
+    font-size: 11px;
+  }
+
+  .heading-1-text {
+    font-size: 54px;
+  }
+}
+
+@media (max-width: 799px){
+  .display-text {
+    font-size: 76px;
+    line-height: 85%;
+    letter-spacing: -4.5%;
+  }
+
+  .captions-text {
+    font-size: 10.5px;
+    letter-spacing: -3%;
+  }
+
+  .heading-1-text {
+    font-size: 50px;
+    line-height: 95%;
+  }
 }

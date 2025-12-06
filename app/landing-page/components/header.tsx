@@ -1,14 +1,14 @@
 export function Header() {
     return (
-        <header>
-            <div className="logo-text">Area</div>
-            <ul className="nav-items">
-                <li className="nav-item link-text">Benefits</li>
-                <li className="nav-item link-text">Specifications</li>
-                <li className="nav-item link-text">How-to</li>
-                <li className="nav-item link-text">Contact Us</li>
-            </ul>
-            <button className="learn-more-btn link-text">Learn more</button>
-        </header>
+        <div className="header">
+            <div className="header-title display-text">Browse everything.</div>
+            <div className="image-container__clipped">
+                <div className="header-image-container">
+                    <div className="green-square"></div>
+                    <div className="ipad-image-container"></div>
+                    <img src="ipad-screen.png" alt="" className="ipad-image" />
+                </div>
+            </div>
+        </div>
     )
 }
