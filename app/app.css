@@ -5,6 +5,7 @@
 @import "./landing-page/components/benefits.css";
 @import "./landing-page/components/connect.css";
 @import "./landing-page/components/footer.css";
+@import "./landing-page/components/features-carousel.css";
 
 html,
 body {

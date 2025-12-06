@@ -1,6 +1,7 @@
 .benefits-container {
     width: 100%;
     padding-bottom: 120px;
+    border-top: 1px solid #E9E9E9;
 }
 
 .headline-and-icons {
@@ -30,7 +31,8 @@
     display: flex;
     flex-direction: column;
     padding: 40px 20px 40px 0;
-    gap: 24px
+    gap: 24px;
+    border-top: 1px solid #E9E9E9;
 }
 
 .icon {
