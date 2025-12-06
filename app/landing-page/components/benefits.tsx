@@ -38,7 +38,7 @@ export function Benefits() {
                     </div>
                 </div>
             </div>
-            <img src="hero-image.jpg" alt="" className="hero-image" />
+            <div className="hero-image"></div>
         </div>
     )
 }

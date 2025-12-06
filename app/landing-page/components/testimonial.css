@@ -39,3 +39,9 @@
         gap: 40px;
     }
 }
+
+@media (max-width: 799px) {
+    .testimonial-image {
+        max-height: 100vw;
+    }
+}
